@@ -1,3 +1,6 @@
+## [2.1.2] - 07-12-2023
+- Melhoria: Adicionado novo certificado sslpinning 
+
 ## [2.1.1] - 21-08-2023
 - Melhoria: Inclusão de verificação de conexão com a internet antes das requisições
 
