@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|  
     s.name              = 'brscan-sdk-selfie-ios'
-    s.version           = '2.2.0-dynamic-nobitcode'
+    s.version           = '2.2.0-static-nobitcode'
     s.summary           = 'brscan-sdk-selfie-ios'
-    s.homepage          = 'https://github.com/brscan/brscan-sdk-selfie-ios'
+    s.homepage          = 'https://github.com/brain-ag/idf-sdk-selfie-ios'
 
     s.author            = { 'Alan Soares de Oliveira' => 'alan.oliveira19@fatec.sp.gov.br'}
     s.license           = 'MIT'
 
     s.platform          = :ios
-    s.source            = { :git => 'https://github.com/brscan/brscan-sdk-selfie-ios.git', :tag => s.version.to_s }
+    s.source            = { :git => 'https://github.com/brain-ag/idf-sdk-selfie-ios.git', :tag => s.version.to_s }
 
     s.resource_bundles = {
      'brscan-sdk-selfie-ios-resources' => ['resources/*/*.{png,ttf,plist}'] 
