@@ -48,8 +48,9 @@ import _StringProcessing
   public var brscan_selfie_loading: Swift.String
   public var brscan_selfie_erro_device_emulated: Swift.String
   public var brscan_selfie_erro_accelerometer: Swift.String
+  public var brscan_selfie_sucesso_foto_valida: Swift.String
   @objc override dynamic public init()
-  @objc public init(brscan_selfie_erro_selfie_captura: Swift.String = "", brscan_selfie_erro_ao_conectar_no_servidor: Swift.String = "", brscan_selfie_erro_ao_validar_chave: Swift.String = "", brscan_selfie_erro_baixa_luminosidade: Swift.String = "", brscan_selfie_erro_device_rooted: Swift.String = "", brscan_selfie_erro_usuario_cancelou_acao: Swift.String = "", brscan_selfie_erro_liberar_camera: Swift.String = "", brscan_selfie_erro_servidor: Swift.String = "", brscan_selfie_erro_processo: Swift.String = "", brscan_selfie_erro_token_expired: Swift.String = "", brscan_selfie_erro_acesso_negado_title: Swift.String = "", brscan_selfie_erro_acesso_negado_subtitle: Swift.String = "", brscan_selfie_erro_acesso_negado_botao_de_acao: Swift.String = "", brscan_selfie_erro_captura_title: Swift.String = "", brscan_selfie_erro_captura_subtitle: Swift.String = "", brscan_selfie_erro_captura_botao_tentar_novamente: Swift.String = "", brscan_selfie_erro_captura_botao_sair_do_processo: Swift.String = "", brscan_selfie_posicione_o_aparelho_na_vertical: Swift.String = "", brscan_selfie_centralize_o_rosto: Swift.String = "", brscan_selfie_aguarde_um_instante: Swift.String = "", brscan_selfie_aguardando_o_rosto: Swift.String = "", brscan_selfie_fique_sozinho: Swift.String = "", brscan_selfie_alinhe_o_rosto: Swift.String = "", brscan_selfie_aproxime_o_aparelho: Swift.String = "", brscan_selfie_afaste_o_aparelho: Swift.String = "", brscan_selfie_mantenha_os_olhos_abertos: Swift.String = "", brscan_selfie_camera_frontal: Swift.String = "", brscan_selfie_camera_traseira: Swift.String = "", brscan_selfie_loading: Swift.String = "", brscan_selfie_erro_device_emulated: Swift.String = "", brscan_selfie_erro_accelerometer: Swift.String = "")
+  @objc public init(brscan_selfie_erro_selfie_captura: Swift.String = "", brscan_selfie_erro_ao_conectar_no_servidor: Swift.String = "", brscan_selfie_erro_ao_validar_chave: Swift.String = "", brscan_selfie_erro_baixa_luminosidade: Swift.String = "", brscan_selfie_erro_device_rooted: Swift.String = "", brscan_selfie_erro_usuario_cancelou_acao: Swift.String = "", brscan_selfie_erro_liberar_camera: Swift.String = "", brscan_selfie_erro_servidor: Swift.String = "", brscan_selfie_erro_processo: Swift.String = "", brscan_selfie_erro_token_expired: Swift.String = "", brscan_selfie_erro_acesso_negado_title: Swift.String = "", brscan_selfie_erro_acesso_negado_subtitle: Swift.String = "", brscan_selfie_erro_acesso_negado_botao_de_acao: Swift.String = "", brscan_selfie_erro_captura_title: Swift.String = "", brscan_selfie_erro_captura_subtitle: Swift.String = "", brscan_selfie_erro_captura_botao_tentar_novamente: Swift.String = "", brscan_selfie_erro_captura_botao_sair_do_processo: Swift.String = "", brscan_selfie_posicione_o_aparelho_na_vertical: Swift.String = "", brscan_selfie_centralize_o_rosto: Swift.String = "", brscan_selfie_aguarde_um_instante: Swift.String = "", brscan_selfie_aguardando_o_rosto: Swift.String = "", brscan_selfie_fique_sozinho: Swift.String = "", brscan_selfie_alinhe_o_rosto: Swift.String = "", brscan_selfie_aproxime_o_aparelho: Swift.String = "", brscan_selfie_afaste_o_aparelho: Swift.String = "", brscan_selfie_mantenha_os_olhos_abertos: Swift.String = "", brscan_selfie_camera_frontal: Swift.String = "", brscan_selfie_camera_traseira: Swift.String = "", brscan_selfie_loading: Swift.String = "", brscan_selfie_erro_device_emulated: Swift.String = "", brscan_selfie_erro_accelerometer: Swift.String = "", brscan_selfie_sucesso_foto_valida: Swift.String = "")
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
@@ -57,6 +58,7 @@ import _StringProcessing
 @objc public protocol CapturaSViewControllerDelegate {
   @objc func sucessoDelegate(_ selfie: [Swift.String : Swift.String])
   @objc func erroDelegate(_ erro: [Swift.String : Any])
+  @objc func callbackProcessamentoLiveness(_ notificationLiveness: [Swift.String : Any])
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CapturaSViewController : UIKit.UIViewController {
   @objc @_Concurrency.MainActor(unsafe) public var delegate: brscan_sdk_selfie_ios.CapturaSViewControllerDelegate?
@@ -216,6 +218,9 @@ extension Swift.String {
     get
   }
   public var brscan_selfie_erro_accelerometer: Swift.String {
+    get
+  }
+  public var brscan_selfie_sucesso_foto_valida: Swift.String {
     get
   }
 }

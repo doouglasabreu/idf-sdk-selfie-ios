@@ -2686,6 +2686,92 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "brscan_selfie_sucesso_foto_valida",
+            "printedName": "brscan_selfie_sucesso_foto_valida",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvp",
+            "mangledName": "$s21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvp",
+            "moduleName": "brscan_sdk_selfie_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvg",
+                "mangledName": "$s21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvg",
+                "moduleName": "brscan_sdk_selfie_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvs",
+                "mangledName": "$s21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvs",
+                "moduleName": "brscan_sdk_selfie_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvM",
+                "mangledName": "$s21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_C20_sucesso_foto_validaSSvM",
+                "moduleName": "brscan_sdk_selfie_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -2707,15 +2793,14 @@
               "Dynamic",
               "ObjC",
               "Override",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(brscan_selfie_erro_selfie_captura:brscan_selfie_erro_ao_conectar_no_servidor:brscan_selfie_erro_ao_validar_chave:brscan_selfie_erro_baixa_luminosidade:brscan_selfie_erro_device_rooted:brscan_selfie_erro_usuario_cancelou_acao:brscan_selfie_erro_liberar_camera:brscan_selfie_erro_servidor:brscan_selfie_erro_processo:brscan_selfie_erro_token_expired:brscan_selfie_erro_acesso_negado_title:brscan_selfie_erro_acesso_negado_subtitle:brscan_selfie_erro_acesso_negado_botao_de_acao:brscan_selfie_erro_captura_title:brscan_selfie_erro_captura_subtitle:brscan_selfie_erro_captura_botao_tentar_novamente:brscan_selfie_erro_captura_botao_sair_do_processo:brscan_selfie_posicione_o_aparelho_na_vertical:brscan_selfie_centralize_o_rosto:brscan_selfie_aguarde_um_instante:brscan_selfie_aguardando_o_rosto:brscan_selfie_fique_sozinho:brscan_selfie_alinhe_o_rosto:brscan_selfie_aproxime_o_aparelho:brscan_selfie_afaste_o_aparelho:brscan_selfie_mantenha_os_olhos_abertos:brscan_selfie_camera_frontal:brscan_selfie_camera_traseira:brscan_selfie_loading:brscan_selfie_erro_device_emulated:brscan_selfie_erro_accelerometer:)",
+            "printedName": "init(brscan_selfie_erro_selfie_captura:brscan_selfie_erro_ao_conectar_no_servidor:brscan_selfie_erro_ao_validar_chave:brscan_selfie_erro_baixa_luminosidade:brscan_selfie_erro_device_rooted:brscan_selfie_erro_usuario_cancelou_acao:brscan_selfie_erro_liberar_camera:brscan_selfie_erro_servidor:brscan_selfie_erro_processo:brscan_selfie_erro_token_expired:brscan_selfie_erro_acesso_negado_title:brscan_selfie_erro_acesso_negado_subtitle:brscan_selfie_erro_acesso_negado_botao_de_acao:brscan_selfie_erro_captura_title:brscan_selfie_erro_captura_subtitle:brscan_selfie_erro_captura_botao_tentar_novamente:brscan_selfie_erro_captura_botao_sair_do_processo:brscan_selfie_posicione_o_aparelho_na_vertical:brscan_selfie_centralize_o_rosto:brscan_selfie_aguarde_um_instante:brscan_selfie_aguardando_o_rosto:brscan_selfie_fique_sozinho:brscan_selfie_alinhe_o_rosto:brscan_selfie_aproxime_o_aparelho:brscan_selfie_afaste_o_aparelho:brscan_selfie_mantenha_os_olhos_abertos:brscan_selfie_camera_frontal:brscan_selfie_camera_traseira:brscan_selfie_loading:brscan_selfie_erro_device_emulated:brscan_selfie_erro_accelerometer:brscan_selfie_sucesso_foto_valida:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2939,13 +3024,20 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@brscan_sdk_selfie_ios@objc(cs)ConfiguracaoTextoSelfie(im)initWithBrscan_selfie_erro_selfie_captura:brscan_selfie_erro_ao_conectar_no_servidor:brscan_selfie_erro_ao_validar_chave:brscan_selfie_erro_baixa_luminosidade:brscan_selfie_erro_device_rooted:brscan_selfie_erro_usuario_cancelou_acao:brscan_selfie_erro_liberar_camera:brscan_selfie_erro_servidor:brscan_selfie_erro_processo:brscan_selfie_erro_token_expired:brscan_selfie_erro_acesso_negado_title:brscan_selfie_erro_acesso_negado_subtitle:brscan_selfie_erro_acesso_negado_botao_de_acao:brscan_selfie_erro_captura_title:brscan_selfie_erro_captura_subtitle:brscan_selfie_erro_captura_botao_tentar_novamente:brscan_selfie_erro_captura_botao_sair_do_processo:brscan_selfie_posicione_o_aparelho_na_vertical:brscan_selfie_centralize_o_rosto:brscan_selfie_aguarde_um_instante:brscan_selfie_aguardando_o_rosto:brscan_selfie_fique_sozinho:brscan_selfie_alinhe_o_rosto:brscan_selfie_aproxime_o_aparelho:brscan_selfie_afaste_o_aparelho:brscan_selfie_mantenha_os_olhos_abertos:brscan_selfie_camera_frontal:brscan_selfie_camera_traseira:brscan_selfie_loading:brscan_selfie_erro_device_emulated:brscan_selfie_erro_accelerometer:",
-            "mangledName": "$s21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_c6_erro_C8_captura0a1_c1_H24_ao_conectar_no_servidor0a1_c1_h1_J14_validar_chave0a1_c1_H19_baixa_luminosidade0a1_c1_H14_device_rooted0a1_c1_H22_usuario_cancelou_acao0a1_c1_H15_liberar_camera0a1_c1_h1_M00a1_c1_H9_processo0a1_c1_H14_token_expired0a1_c1_H20_acesso_negado_title0a1_c1_H23_acesso_negado_subtitle0a1_c1_h24_acesso_negado_botao_de_V00a1_c1_h1_I6_title0a1_c1_h1_I9_subtitle0a1_c1_h1_I23_botao_tentar_novamente0a1_c1_h1_i15_botao_sair_do_Y00a1_C33_posicione_o_aparelho_na_vertical0a1_C19_centralize_o_rosto0a1_C20_aguarde_um_instante0a1_C19_aguardando_o_rosto0a1_C14_fique_sozinho0a1_C15_alinhe_o_rosto0a1_C20_aproxime_o_aparelho0a1_C18_afaste_o_aparelho0a1_C26_mantenha_os_olhos_abertos0a1_c1_X8_frontal0a1_c1_X9_traseira0a1_C8_loading0a1_c1_h1_R9_emulated0a1_c1_H14_accelerometerACSS_S30Stcfc",
+            "usr": "c:@M@brscan_sdk_selfie_ios@objc(cs)ConfiguracaoTextoSelfie(im)initWithBrscan_selfie_erro_selfie_captura:brscan_selfie_erro_ao_conectar_no_servidor:brscan_selfie_erro_ao_validar_chave:brscan_selfie_erro_baixa_luminosidade:brscan_selfie_erro_device_rooted:brscan_selfie_erro_usuario_cancelou_acao:brscan_selfie_erro_liberar_camera:brscan_selfie_erro_servidor:brscan_selfie_erro_processo:brscan_selfie_erro_token_expired:brscan_selfie_erro_acesso_negado_title:brscan_selfie_erro_acesso_negado_subtitle:brscan_selfie_erro_acesso_negado_botao_de_acao:brscan_selfie_erro_captura_title:brscan_selfie_erro_captura_subtitle:brscan_selfie_erro_captura_botao_tentar_novamente:brscan_selfie_erro_captura_botao_sair_do_processo:brscan_selfie_posicione_o_aparelho_na_vertical:brscan_selfie_centralize_o_rosto:brscan_selfie_aguarde_um_instante:brscan_selfie_aguardando_o_rosto:brscan_selfie_fique_sozinho:brscan_selfie_alinhe_o_rosto:brscan_selfie_aproxime_o_aparelho:brscan_selfie_afaste_o_aparelho:brscan_selfie_mantenha_os_olhos_abertos:brscan_selfie_camera_frontal:brscan_selfie_camera_traseira:brscan_selfie_loading:brscan_selfie_erro_device_emulated:brscan_selfie_erro_accelerometer:brscan_selfie_sucesso_foto_valida:",
+            "mangledName": "$s21brscan_sdk_selfie_ios23ConfiguracaoTextoSelfieC0a1_c6_erro_C8_captura0a1_c1_H24_ao_conectar_no_servidor0a1_c1_h1_J14_validar_chave0a1_c1_H19_baixa_luminosidade0a1_c1_H14_device_rooted0a1_c1_H22_usuario_cancelou_acao0a1_c1_H15_liberar_camera0a1_c1_h1_M00a1_c1_H9_processo0a1_c1_H14_token_expired0a1_c1_H20_acesso_negado_title0a1_c1_H23_acesso_negado_subtitle0a1_c1_h24_acesso_negado_botao_de_V00a1_c1_h1_I6_title0a1_c1_h1_I9_subtitle0a1_c1_h1_I23_botao_tentar_novamente0a1_c1_h1_i15_botao_sair_do_Y00a1_C33_posicione_o_aparelho_na_vertical0a1_C19_centralize_o_rosto0a1_C20_aguarde_um_instante0a1_C19_aguardando_o_rosto0a1_C14_fique_sozinho0a1_C15_alinhe_o_rosto0a1_C20_aproxime_o_aparelho0a1_C18_afaste_o_aparelho0a1_C26_mantenha_os_olhos_abertos0a1_c1_X8_frontal0a1_c1_X9_traseira0a1_C8_loading0a1_c1_h1_R9_emulated0a1_c1_H14_accelerometer0a1_C20_sucesso_foto_validaACSS_S31Stcfc",
             "moduleName": "brscan_sdk_selfie_ios",
-            "objc_name": "initWithBrscan_selfie_erro_selfie_captura:brscan_selfie_erro_ao_conectar_no_servidor:brscan_selfie_erro_ao_validar_chave:brscan_selfie_erro_baixa_luminosidade:brscan_selfie_erro_device_rooted:brscan_selfie_erro_usuario_cancelou_acao:brscan_selfie_erro_liberar_camera:brscan_selfie_erro_servidor:brscan_selfie_erro_processo:brscan_selfie_erro_token_expired:brscan_selfie_erro_acesso_negado_title:brscan_selfie_erro_acesso_negado_subtitle:brscan_selfie_erro_acesso_negado_botao_de_acao:brscan_selfie_erro_captura_title:brscan_selfie_erro_captura_subtitle:brscan_selfie_erro_captura_botao_tentar_novamente:brscan_selfie_erro_captura_botao_sair_do_processo:brscan_selfie_posicione_o_aparelho_na_vertical:brscan_selfie_centralize_o_rosto:brscan_selfie_aguarde_um_instante:brscan_selfie_aguardando_o_rosto:brscan_selfie_fique_sozinho:brscan_selfie_alinhe_o_rosto:brscan_selfie_aproxime_o_aparelho:brscan_selfie_afaste_o_aparelho:brscan_selfie_mantenha_os_olhos_abertos:brscan_selfie_camera_frontal:brscan_selfie_camera_traseira:brscan_selfie_loading:brscan_selfie_erro_device_emulated:brscan_selfie_erro_accelerometer:",
+            "objc_name": "initWithBrscan_selfie_erro_selfie_captura:brscan_selfie_erro_ao_conectar_no_servidor:brscan_selfie_erro_ao_validar_chave:brscan_selfie_erro_baixa_luminosidade:brscan_selfie_erro_device_rooted:brscan_selfie_erro_usuario_cancelou_acao:brscan_selfie_erro_liberar_camera:brscan_selfie_erro_servidor:brscan_selfie_erro_processo:brscan_selfie_erro_token_expired:brscan_selfie_erro_acesso_negado_title:brscan_selfie_erro_acesso_negado_subtitle:brscan_selfie_erro_acesso_negado_botao_de_acao:brscan_selfie_erro_captura_title:brscan_selfie_erro_captura_subtitle:brscan_selfie_erro_captura_botao_tentar_novamente:brscan_selfie_erro_captura_botao_sair_do_processo:brscan_selfie_posicione_o_aparelho_na_vertical:brscan_selfie_centralize_o_rosto:brscan_selfie_aguarde_um_instante:brscan_selfie_aguardando_o_rosto:brscan_selfie_fique_sozinho:brscan_selfie_alinhe_o_rosto:brscan_selfie_aproxime_o_aparelho:brscan_selfie_afaste_o_aparelho:brscan_selfie_mantenha_os_olhos_abertos:brscan_selfie_camera_frontal:brscan_selfie_camera_traseira:brscan_selfie_loading:brscan_selfie_erro_device_emulated:brscan_selfie_erro_accelerometer:brscan_selfie_sucesso_foto_valida:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -3185,6 +3277,49 @@
             "declKind": "Func",
             "usr": "c:@M@brscan_sdk_selfie_ios@objc(pl)CapturaSViewControllerDelegate(im)erroDelegate:",
             "mangledName": "$s21brscan_sdk_selfie_ios30CapturaSViewControllerDelegateP04erroH0yySDySSypGF",
+            "moduleName": "brscan_sdk_selfie_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : brscan_sdk_selfie_ios.CapturaSViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : brscan_sdk_selfie_ios.CapturaSViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callbackProcessamentoLiveness",
+            "printedName": "callbackProcessamentoLiveness(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@brscan_sdk_selfie_ios@objc(pl)CapturaSViewControllerDelegate(im)callbackProcessamentoLiveness:",
+            "mangledName": "$s21brscan_sdk_selfie_ios30CapturaSViewControllerDelegateP29callbackProcessamentoLivenessyySDySSypGF",
             "moduleName": "brscan_sdk_selfie_ios",
             "genericSig": "<τ_0_0 where τ_0_0 : brscan_sdk_selfie_ios.CapturaSViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : brscan_sdk_selfie_ios.CapturaSViewControllerDelegate>",
@@ -19199,6 +19334,48 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "brscan_selfie_sucesso_foto_valida",
+            "printedName": "brscan_selfie_sucesso_foto_valida",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:SS21brscan_sdk_selfie_iosE0a1_C20_sucesso_foto_validaSSvp",
+            "mangledName": "$sSS21brscan_sdk_selfie_iosE0a1_C20_sucesso_foto_validaSSvp",
+            "moduleName": "brscan_sdk_selfie_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:SS21brscan_sdk_selfie_iosE0a1_C20_sucesso_foto_validaSSvg",
+                "mangledName": "$sSS21brscan_sdk_selfie_iosE0a1_C20_sucesso_foto_validaSSvg",
+                "moduleName": "brscan_sdk_selfie_ios",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -20556,366 +20733,387 @@
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3221,
+      "offset": 2264,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 2419,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3344,
+      "offset": 2484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3404,
+      "offset": 2542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 2602,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 2657,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3578,
+      "offset": 2720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3628,
+      "offset": 2776,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3678,
+      "offset": 2826,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3733,
+      "offset": 2876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3794,
+      "offset": 2931,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3858,
+      "offset": 2992,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3927,
+      "offset": 3056,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 3982,
+      "offset": 3125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4040,
+      "offset": 3180,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4112,
+      "offset": 3238,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4184,
+      "offset": 3310,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4253,
+      "offset": 3382,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4308,
+      "offset": 3451,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 3506,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4419,
+      "offset": 3562,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4469,
+      "offset": 3617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4520,
+      "offset": 3667,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4576,
+      "offset": 3718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4630,
+      "offset": 3774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4692,
+      "offset": 3828,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4743,
+      "offset": 3890,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4795,
+      "offset": 3941,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4847,
+      "offset": 3993,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4904,
+      "offset": 4045,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
       "kind": "StringLiteral",
-      "offset": 4959,
+      "offset": 4102,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Model\/ConfiguracaoTextoModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4213,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 694,
+      "offset": 772,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 739,
+      "offset": 817,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "StringLiteral",
-      "offset": 783,
+      "offset": 861,
       "length": 8,
       "value": "\"base64\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1061,
+      "offset": 1139,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1244,
+      "offset": 1322,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1282,
+      "offset": 1360,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1329,
+      "offset": 1407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1377,
+      "offset": 1455,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1422,
+      "offset": 1500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1457,
+      "offset": 1535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1489,
+      "offset": 1567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1527,
+      "offset": 1605,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1564,
+      "offset": 1642,
       "length": 8,
       "value": "\"base64\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1684,
+      "offset": 1762,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1725,
+      "offset": 1803,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1759,
+      "offset": 1837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1810,
+      "offset": 1888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1856,
+      "offset": 1934,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 385,
       "length": 22,
       "value": "\"brscan_sdk_selfie_ios.CapturaSViewController\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8827,
+      "offset": 9299,
       "length": 9,
       "value": "\"sucesso\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8878,
+      "offset": 9350,
       "length": 6,
       "value": "\"erro\""
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturaViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9423,
+      "length": 31,
+      "value": "\"callbackProcessamentoLiveness\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Service\/PinningService.swift",
@@ -22147,7 +22345,7 @@
       "kind": "StringLiteral",
       "offset": 167,
       "length": 7,
-      "value": "\"2.1.2\""
+      "value": "\"2.2.0\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Helpers\/Constants.swift",
@@ -22600,203 +22798,203 @@
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4353,
+      "offset": 4329,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4715,
+      "offset": 4691,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4836,
+      "offset": 4812,
       "length": 34,
       "value": "\"brscan_selfie_icon_check_capture\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5014,
+      "offset": 4990,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5042,
+      "offset": 5018,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5261,
+      "offset": 5237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5296,
+      "offset": 5272,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5773,
+      "offset": 5749,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5785,
+      "offset": 5761,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5997,
+      "offset": 5973,
       "length": 42,
       "value": "\"brscan_selfie_icone_captura_botao_fechar\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6190,
+      "offset": 6166,
       "length": 8,
       "value": "\"fechar\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6253,
+      "offset": 6229,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6552,
+      "offset": 6528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6558,
+      "offset": 6534,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6872,
+      "offset": 6848,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7053,
+      "offset": 7029,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7102,
+      "offset": 7078,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7370,
+      "offset": 7346,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7602,
+      "offset": 7578,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7805,
+      "offset": 7781,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8189,
+      "offset": 8165,
       "length": 27,
       "value": "\"v\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8215,
+      "offset": 8191,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8241,
+      "offset": 8217,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8268,
+      "offset": 8244,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8336,
+      "offset": 8312,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8574,
+      "offset": 8550,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8743,
+      "offset": 8719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8781,
+      "offset": 8757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8818,
+      "offset": 8794,
       "length": 8,
       "value": "\"base64\""
     },
@@ -22810,9 +23008,37 @@
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 45533,
+      "offset": 45801,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 45920,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 45942,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 48161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Controller\/CapturarSelfieViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 48183,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/c93514a\/www\/BrScan\/IOS\/Bitbucket\/Liveness-Serasa\/brscan-sdk-selfie-ios\/brscan-sdk-selfie-ios\/Utils\/Extensions\/UIFont+Extension.swift",
