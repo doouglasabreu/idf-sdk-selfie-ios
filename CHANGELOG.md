@@ -1,3 +1,6 @@
+## [2.2.1] - 05-03-2024
+- Melhoria: Atualizar MLKit para versão 4.0.0.
+
 ## [2.2.0] - 16-01-2024
 - Melhoria: Retornar erros via call back(callbackProcessamentoLiveness).
 
