@@ -1,3 +1,12 @@
+## [2.2.2] - 23-04-2024
+- Melhoria: Inclução do arquivo PrivacyInfo.xcprivacy.
+
+## [2.2.1] - 05-03-2024
+- Melhoria: Atualizar MLKit para versão 4.0.0.
+
+## [2.2.0] - 16-01-2024
+- Melhoria: Retornar erros via call back(callbackProcessamentoLiveness).
+
 ## [2.1.2] - 07-12-2023
 - Melhoria: Adicionado novo certificado sslpinning 
 
