@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'brscan-sdk-selfie-ios'
-    s.version           = '2.2.3-static-nobitcode'
+    s.version           = '2.2.3-dynamic-nobitcode'
     s.summary           = 'brscan-sdk-selfie-ios'
     s.homepage          = 'https://github.com/brain-ag/idf-sdk-selfie-ios'
 
