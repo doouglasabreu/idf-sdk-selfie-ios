@@ -1,4 +1,7 @@
-## [2.2.2] - 23-04-2024
+## [2.2.3] - 22-10-2024
+- Melhoria: Adição de novo certificado.
+
+## [2.2.2] - 24-04-2024
 - Melhoria: Inclução do arquivo PrivacyInfo.xcprivacy.
 
 ## [2.2.1] - 05-03-2024
